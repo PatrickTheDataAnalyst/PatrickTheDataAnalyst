@@ -7,6 +7,7 @@ Data Description:
 The dataset consists of sales records gathered over a one-year period from a retail business, totaling more than 30,000 transactions. It includes key attributes such as product names, prices, quantities ordered, purchase dates and times, customer locations (cities), and total sales. This rich dataset provides the basis for comprehensive analysis across multiple dimensions, including product performance, city-based sales trends, and customer purchasing patterns.
 ________________________________________
 Data Challenges and Solutions:
+
 During data preparation, several challenges were encountered, such as missing values, duplicate entries, and incorrect data types in key fields. These issues were addressed by:
 •	Removing missing or invalid entries in key columns like product price and quantity ordered.
 •	Handling duplicate orders by consolidating related transactions based on 'Order ID'.
@@ -14,6 +15,7 @@ During data preparation, several challenges were encountered, such as missing va
 This ensured a clean and accurate dataset for subsequent analysis.
 ________________________________________
 Methodology:
+
 The analysis was performed using Python, with libraries like Pandas for data manipulation and Matplotlib for data visualization. Key methodologies included:
 •	Grouping and aggregation techniques to identify sales trends by product, city, and month.
 •	Market basket analysis to uncover frequently purchased product combinations and inform cross-selling strategies.
